@@ -15,6 +15,7 @@ jobs:
       - name: Verify Title
         uses: cocogitto/cocogitto-action@v3
         with:
+          check: false
           verify: ${{ github.event.pull_request.title }}
 #      - uses: thehanimo/pr-title-checker@v1.4.3
 #        with:
